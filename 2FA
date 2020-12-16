@@ -1,1 +1,72 @@
-<mxfile host="app.diagrams.net" modified="2020-12-16T15:36:22.605Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.101 Safari/537.36" version="14.0.4" etag="tAByyfuoUI0CBjymR1oc" type="github"><diagram id="oXmls8ySTUKt5YoDcKyQ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-16T16:03:58.793Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.101 Safari/537.36" etag="3w_Il6P1oeax-w6EGY2x" version="14.0.4" type="github">
+  <diagram id="oXmls8ySTUKt5YoDcKyQ" name="Page-1">
+    <mxGraphModel dx="946" dy="618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="d-QIN_sP3InO6UMhF30q-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d-QIN_sP3InO6UMhF30q-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d-QIN_sP3InO6UMhF30q-1" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;UMS&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="310" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d-QIN_sP3InO6UMhF30q-2" value="This service performs user&lt;br&gt;authentication and&amp;nbsp;&lt;br&gt;authorisation then returns the&lt;br&gt;user token" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="365" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d-QIN_sP3InO6UMhF30q-3" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;Wallet&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="465" y="310" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d-QIN_sP3InO6UMhF30q-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="d-QIN_sP3InO6UMhF30q-6" target="d-QIN_sP3InO6UMhF30q-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d-QIN_sP3InO6UMhF30q-6" value="Customer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="90" width="30" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="d-QIN_sP3InO6UMhF30q-8" value="" style="endArrow=classic;html=1;" edge="1" parent="1" target="d-QIN_sP3InO6UMhF30q-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="340" as="sourcePoint" />
+            <mxPoint x="340" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d-QIN_sP3InO6UMhF30q-9" value="&lt;b&gt;2FA&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="230" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d-QIN_sP3InO6UMhF30q-10" value="This is used to validate&lt;br&gt;that it&#39;s the real owner." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="160" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d-QIN_sP3InO6UMhF30q-11" value="It sends an OTP by email,&lt;br&gt;text message or google auth" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="255" y="190" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d-QIN_sP3InO6UMhF30q-12" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="d-QIN_sP3InO6UMhF30q-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="310" as="sourcePoint" />
+            <mxPoint x="250" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d-QIN_sP3InO6UMhF30q-13" value="if it fails" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=-35;" vertex="1" parent="1">
+          <mxGeometry x="195" y="260" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d-QIN_sP3InO6UMhF30q-15" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.414;entryY=-0.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="d-QIN_sP3InO6UMhF30q-9" target="d-QIN_sP3InO6UMhF30q-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="310" as="sourcePoint" />
+            <mxPoint x="500" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d-QIN_sP3InO6UMhF30q-16" value="if it passes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rotation=30;" vertex="1" parent="1">
+          <mxGeometry x="435" y="250" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d-QIN_sP3InO6UMhF30q-17" value="So basically this is the process we want to implement and we currently have the endpoints for sending the OTPs on&amp;nbsp; UMS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="490" width="660" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d-QIN_sP3InO6UMhF30q-18" value="I was thinking of putting the 2FA endpoint on Wallet service before but I think it&#39;s better on the UMS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="510" width="540" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="d-QIN_sP3InO6UMhF30q-19" value="So when the frontend person wants to implement it, the endpoint is already there" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="530" width="440" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
