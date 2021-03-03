@@ -1,1 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2021-03-03T12:35:59.399Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" version="14.4.3" etag="SjkAxb993M3AGiRbXTd6" type="github"><diagram id="ldlrjo5DCdHwmXyAjg6h">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-03T13:22:51.290Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="r02RTSbMI6eSGVSa05W6" version="14.4.3" type="github">
+  <diagram id="ldlrjo5DCdHwmXyAjg6h" name="Page-1">
+    <mxGraphModel dx="1960" dy="939" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_jwGznRekxFFy8VUrAZn-1" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="340" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_jwGznRekxFFy8VUrAZn-2" value="Admin Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_jwGznRekxFFy8VUrAZn-4" value="role verification and service access" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="405" y="420" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_jwGznRekxFFy8VUrAZn-6" value="UMS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_jwGznRekxFFy8VUrAZn-7" value="user verification and authentication" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="185" y="420" width="110" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
