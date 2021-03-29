@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-29T10:22:57.215Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="tYrTBjX_7VeC5Vkuwssz" version="14.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-29T10:38:04.597Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="e0017RKzqU-k4gH_hv4U" version="14.5.3" type="github">
   <diagram id="X4Xy4BRjHVYfWqQkQcBx" name="Page-1">
     <mxGraphModel dx="1455" dy="994" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -35,7 +35,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="W7aqnPacANjUn1Gtp2Se-10" value="is trx crypto?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="450" width="80" height="80" as="geometry" />
+          <mxGeometry x="50" y="580" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="W7aqnPacANjUn1Gtp2Se-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W7aqnPacANjUn1Gtp2Se-14" target="W7aqnPacANjUn1Gtp2Se-16">
           <mxGeometry relative="1" as="geometry">
@@ -52,7 +52,7 @@
           <mxGeometry x="720" y="1040" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="W7aqnPacANjUn1Gtp2Se-18" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="45" y="550" width="30" height="20" as="geometry" />
+          <mxGeometry x="50" y="730" width="30" height="20" as="geometry" />
         </mxCell>
         <mxCell id="W7aqnPacANjUn1Gtp2Se-19" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="55" y="400" width="30" height="20" as="geometry" />
