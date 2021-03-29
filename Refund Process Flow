@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-29T10:51:03.701Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="lT19d5SavnGwFJbtQHBh" version="14.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-29T10:59:09.182Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="y6y6s_S1k4eMkUVrjNIk" version="14.5.3" type="github">
   <diagram id="X4Xy4BRjHVYfWqQkQcBx" name="Page-1">
     <mxGraphModel dx="1455" dy="994" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -123,8 +123,11 @@
         <mxCell id="W7aqnPacANjUn1Gtp2Se-44" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="403" y="370" width="30" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="W7aqnPacANjUn1Gtp2Se-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W7aqnPacANjUn1Gtp2Se-45" target="W7aqnPacANjUn1Gtp2Se-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="W7aqnPacANjUn1Gtp2Se-45" value="Customer sends crypto to syarpa account" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="173" y="550" width="120" height="60" as="geometry" />
+          <mxGeometry x="163" y="550" width="107" height="60" as="geometry" />
         </mxCell>
         <mxCell id="W7aqnPacANjUn1Gtp2Se-47" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="123" y="540" width="40" height="20" as="geometry" />
@@ -134,6 +137,84 @@
         </mxCell>
         <mxCell id="W7aqnPacANjUn1Gtp2Se-48" value="Notify customer" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="723" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W7aqnPacANjUn1Gtp2Se-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W7aqnPacANjUn1Gtp2Se-50" target="W7aqnPacANjUn1Gtp2Se-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7aqnPacANjUn1Gtp2Se-50" value="Is crypto confirmed?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="540" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="W7aqnPacANjUn1Gtp2Se-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W7aqnPacANjUn1Gtp2Se-52" target="W7aqnPacANjUn1Gtp2Se-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7aqnPacANjUn1Gtp2Se-52" value="is refund initiated?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="443" y="540" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="W7aqnPacANjUn1Gtp2Se-55" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="W7aqnPacANjUn1Gtp2Se-50">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="770" as="sourcePoint" />
+            <mxPoint x="350" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W7aqnPacANjUn1Gtp2Se-56" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="780" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="W7aqnPacANjUn1Gtp2Se-57" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="540" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="W7aqnPacANjUn1Gtp2Se-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W7aqnPacANjUn1Gtp2Se-58" target="W7aqnPacANjUn1Gtp2Se-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7aqnPacANjUn1Gtp2Se-58" value="Populate for admin refund approval" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W7aqnPacANjUn1Gtp2Se-61" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="540" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="W7aqnPacANjUn1Gtp2Se-64" value="" style="endArrow=classic;html=1;entryX=0.42;entryY=0.023;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="W7aqnPacANjUn1Gtp2Se-65">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="482" y="620" as="sourcePoint" />
+            <mxPoint x="482" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W7aqnPacANjUn1Gtp2Se-65" value="Credit recipient" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W7aqnPacANjUn1Gtp2Se-66" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="435" y="640" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="W7aqnPacANjUn1Gtp2Se-67" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="W7aqnPacANjUn1Gtp2Se-65">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="770" as="sourcePoint" />
+            <mxPoint x="720" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W7aqnPacANjUn1Gtp2Se-68" value="is refund approved?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="698" y="540" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="W7aqnPacANjUn1Gtp2Se-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W7aqnPacANjUn1Gtp2Se-74" target="W7aqnPacANjUn1Gtp2Se-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7aqnPacANjUn1Gtp2Se-74" value="Initiat refund to the sender address" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="678" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W7aqnPacANjUn1Gtp2Se-76" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="W7aqnPacANjUn1Gtp2Se-68">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="770" as="sourcePoint" />
+            <mxPoint x="810" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W7aqnPacANjUn1Gtp2Se-77" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="775" y="550" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="W7aqnPacANjUn1Gtp2Se-79" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="W7aqnPacANjUn1Gtp2Se-68" target="W7aqnPacANjUn1Gtp2Se-74">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="770" as="sourcePoint" />
+            <mxPoint x="490" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W7aqnPacANjUn1Gtp2Se-80" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="650" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
